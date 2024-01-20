@@ -17,7 +17,7 @@ while True:
 latitude = float(latitude)
 longitude = float(longitude)
 latitude -= 8.15
-longitude += 2
+longitude -= 2
 df = pd.DataFrame({
     "lon":[longitude],
     "lat":[latitude]})
