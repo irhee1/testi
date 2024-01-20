@@ -21,6 +21,7 @@ longitude -= 0.90145
 df = pd.DataFrame({
     "lon":[longitude],
     "lat":[latitude]})
+st.set_page_config(page_title="Find your location", layout="wide", page_icon="🗺️")
 st.header("This is your location!")
 st.map(df)
 
