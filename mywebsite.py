@@ -23,9 +23,3 @@ df = pd.DataFrame({
     "lat":[latitude]})
 st.header("This is your location!")
 st.map(df)
-st.subheader("The city you are currently in is named "+ data['city'])
-if data['country'] == "US":
-    st.subheader("The state you are currently in is named " + data['region'])
-else:
-    st.subheader("The region you are currently in is named " + data['region'])
-st.subheader("The country you are currently in is named " + data['country'])
